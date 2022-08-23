@@ -16,4 +16,5 @@ type Config struct {
 	Error   *log.Logger
 	Wait    *sync.WaitGroup
 	Models  data.Models
+	Mailer  Mail
 }
